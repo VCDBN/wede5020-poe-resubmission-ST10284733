@@ -1,0 +1,67 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(Go14.gif);
+    background-color: lightgreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+header{
+    text-align: center;
+    color: darkgoldenrod ;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div{
+    padding: 10px;
+    color: darkgreen;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 25vh;
+}
+
+section{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 30px;
+}
+
+ul{
+    width: 100%;
+    background: black;
+    height: 60px;
+    margin:0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    letter-spacing: 1;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.3;
+}
+
+ul li a{
+    color: whitesmoke;
+    line-height: 50px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+img{
+    width: 35%;
+    height: 50vh;
+}
+
